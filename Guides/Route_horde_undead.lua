@@ -97,8 +97,8 @@ A 356 @65.5,60.2 id=1495 lvl=11 req=6
 A 96897 @65.9,61.1 id=267009 lvl=12 req=10
 A 96898 @65.9,61.1 id=267009 lvl=12 req=10
 A 97558 @65.4,60.1 id=3549 lvl=11 req=6
-C 96897 @68.7,64.0 mobs=275437,267006
-C 96898 @68.7,64.1 mobs=275437,267006
+C 96897 @68.8,64.1 mobs=275437,267006
+C 96898 @68.7,64.2 mobs=275437,267006
 T 96897 @65.9,61.1 id=267009
 T 96898 @65.9,61.1 id=267009
 A 96899 @65.9,61.1 id=267009 lvl=12 req=10
@@ -130,14 +130,14 @@ A 96896 @22.0,44.7 race=Scourge id=267008 lvl=12 req=10
 T 96896 @22.0,44.7 race=Scourge id=267008
 A 98545 @22.0,44.7 race=Orc,Scourge id=267008 lvl=12 req=10
 A 99152 @22.0,47.2 race=Scourge id=246389 lvl=12 req=10
-A 99153 @20.2,46.5 race=Scourge id=259190 lvl=12 req=10
+A 99153 @20.2,46.5 id=259190 lvl=12 req=10
 T 98545 @22.0,44.7 race=Orc,Scourge id=272526
-C 374 @14.1,64.4 mobs=259433,1537,1535,1538,1536
+C 374 @14.1,64.7 mobs=259433,1537,1535,1538,1536
 C 95314 @9.8,65.6
-C 99152 @10.6,65.8 race=Scourge mobs=260428,260430,260432
-C 99153 @9.8,69.3 race=Scourge
+C 99152 @10.7,65.8 race=Scourge mobs=260428,260430,260432
+C 99153 @9.8,69.3
 T 99152 @22.0,47.2 race=Scourge id=246389
-T 99153 @20.2,46.5 race=Scourge id=259190
+T 99153 @20.2,46.5 id=259190
 T 95314 @59.4,52.2 id=2132
 T 374 @60.9,52.0 id=1652
 ]],
@@ -270,6 +270,7 @@ A 1069 @62.4,37.6 id=3446 lvl=20 req=15
 A 1483 @63.0,37.2 id=3442 lvl=21 req=16
 T 959 @63.1,37.6 group=1 id=3665
 A 92706 @62.6,37.5 group=1 lvl=20 req=15
+C 92706 @65.3,40.3 group=1 mobs=209797
 C 891 @61.5,54.6 mobs=3385,3386,3393,3455,3454
 C 3281 @58.0,53.9
 C 899 @51.0,55.9 mobs=268624,3258,3263,3260,3261
@@ -279,9 +280,8 @@ T 899 @52.0,31.6 id=3432
 T 4921 @52.0,31.6 id=3432
 A 95774 @52.0,31.6 id=3432 lvl=20 req=14
 T 891 @62.3,39.0 id=3339
-C 92706 @66.0,40.1 group=1 mobs=209797
-C 95774 @50.6,50.8 mobs=268624
 A 883 "Tue ce monstre : son butin lance la quête" @47.4,51.3 mobs=3474 lvl=22 req=10
+C 95774 @48.4,51.5 mobs=268624
 T 883 @44.9,59.1 id=3387
 A 878 @44.5,59.3 id=3430 lvl=21 req=14
 C 878 @53.1,53.3 mobs=3263,3260,3261
@@ -324,10 +324,10 @@ T 95494 @43.8,12.2 id=3682
 A 95495 @43.8,12.2 id=3682 lvl=18 req=14
 T 95495 @42.0,11.4 id=261366
 A 95621 @42.0,11.4 id=261366 lvl=18 req=14
-C 95621 @42.4,14.8 mobs=262119
+C 95621 @42.6,14.4 mobs=262119
 T 95621 @42.0,11.4 id=261366
 A 95508 @42.0,11.4 id=261366 lvl=18 req=14
-C 95508 @42.2,11.2 mobs=261367
+C 95508 @41.9,11.3 mobs=261367
 T 95508 @42.0,11.4 id=261366
 C 875 @39.2,15.7 mobs=3278
 H "Utilise ta pierre de foyer" @52.0,29.9 id=3934
@@ -342,7 +342,7 @@ A 97250 @44.6,59.3 group=1 id=5911 lvl=23 req=18
 A 897 "Tue ce monstre : son butin lance la quête" @43.1,70.1 mobs=3253 lvl=24 req=10
 C 868 @43.1,70.8 mobs=3252,3250,3251,3503
 A 98093 @47.9,77.6 id=14242 lvl=23 req=18
-C 97250 @49.2,77.5 group=1 mobs=268622,268623
+C 97250 @49.3,77.4 group=1 mobs=268622,268623
 C 98093 @44.7,75.6 mobs=3238,4128
 T 98093 @47.9,77.6 id=14242
 T 897 @44.9,59.1 id=3387
@@ -536,7 +536,7 @@ A 499 @61.4,19.1 id=2216 lvl=22 req=19
 A 528 @62.3,20.4 id=2215 lvl=25 req=19
 A 546 @62.1,19.7 id=2418 lvl=25 req=20
 T 499 @61.5,19.1 id=2230
-C 546 @79.0,43.9 mobs=2261,2269,2244,266216,2266
+C 546 @79.8,43.6 mobs=2261,2269,266216,2244,2266
 T 546 @62.1,19.7 id=2418
 C 528 @34.6,45.6 mobs=2267
 T 528 @62.3,20.4 id=2215
@@ -866,6 +866,7 @@ C 596 @24.8,10.9 mobs=701,588,671,597,595
 C 97329 @24.8,10.9 mobs=701,588,671,597,595
 T 97329 @23.5,12.8 id=268992
 A 97331 @23.5,12.8 id=268992 lvl=35 req=30
+C 97331 @26.9,11.4
 T 5762 @35.7,10.8 id=715
 T 5763 @35.7,10.8 id=715
 A 188 @35.6,10.6 id=717 lvl=37 req=28
@@ -878,7 +879,7 @@ T 596 @32.3,27.7 id=2519
 T 629 @32.3,27.7 id=2519
 A 582 @32.2,27.7 id=2497 lvl=37 req=30
 A 97453 @32.8,28.4 id=269166 lvl=38 req=33
-C 97453 @34.4,30.4 mobs=269175
+C 97453 @34.4,30.5 mobs=269175
 T 97453 @32.7,29.2 id=1148
 T 188 @35.6,10.6 id=717
 T 195 @35.7,10.8 id=715
@@ -922,13 +923,13 @@ C 96063 @61.8,58.3
 T 95062 @59.4,45.6 id=256418
 T 96103 @60.5,47.9 id=258031
 A 96104 @60.5,47.9 id=258031 lvl=39 req=36
-C 96104 @66.4,53.2 mobs=263348
 T 96063 @68.2,48.6 id=263367
 A 96067 @68.2,48.6 id=263367 lvl=40 req=36
+C 96104 @66.6,52.6 mobs=263348
 T 96067 @68.2,48.6 id=263367
 T 96104 @60.5,47.9 id=258031
-C 93788 @40.4,62.1 mobs=256434
-C 93786 @46.2,80.7 mobs=256383
+C 93788 @40.3,62.8 mobs=256434
+C 93786 @46.0,80.7 mobs=256383
 H "Utilise ta pierre de foyer" @58.0,45.1 id=256675
 T 93786 @59.4,45.6 id=256418
 T 93788 @59.9,46.0 id=256657
@@ -941,9 +942,9 @@ A 94480 @59.4,45.6 id=256418 lvl=36 req=36
 A 94483 @59.4,45.6 id=256418 lvl=39 req=36
 T 94480 @58.6,44.6 id=256655
 A 94481 @58.6,44.6 id=256655 lvl=38 req=36
-C 94481 @59.5,37.8 mobs=256749
+C 94481 @60.2,37.5 mobs=256749
 T 94481 @58.6,44.6 id=256655
-C 94483 @49.9,68.8 mobs=257926,270667
+C 94483 @49.6,68.9 mobs=257926,270667
 T 94483 @59.4,45.6 id=256418
 ]],
 })
@@ -990,30 +991,30 @@ ns.RegisterGuide({
 M riverglades
 G "Rejoins Rives Claires" @47.3,51.4 r=40 upto=42
 A 94961 @47.3,51.4 id=259158 lvl=40 req=36
-C 94961 @48.7,48.7 mobs=256952,256798,254560,260969
+C 94961 @47.5,50.2 mobs=256952,256798,254560,260969
 T 94961 @47.3,51.4 id=259158
 A 94963 @47.3,51.4 id=259158 lvl=40 req=36
 T 94963 @41.6,47.7
 A 96107 @60.5,47.9 id=258031 lvl=40 req=36
-C 96107 @66.1,51.6 mobs=263343
+C 96107 @66.1,53.4 mobs=263343
 T 96107 @60.5,47.9 id=258031
 A 96108 @60.5,47.9 id=258031 lvl=40 req=36
-C 96108 @63.2,59.0 mobs=263307
+C 96108 @62.8,57.9 mobs=263307
 T 96108 @60.5,47.9 id=258031
 A 96109 @60.5,47.9 id=258031 lvl=40 req=36
-C 96109 @59.6,54.3 mobs=259054,259055
+C 96109 @59.7,54.1 mobs=259054,259055
 T 96109 @60.5,47.9 id=258031
 A 94532 @60.5,47.9 id=258031 lvl=38 req=36
 A 94535 @59.9,46.0 id=256657 lvl=38 req=36
 A 94533 @60.5,47.9 group=1 id=258031 lvl=40 req=36
 A 95163 @70.7,28.1 id=256728 lvl=40 req=38
-C 95163 @73.1,38.0 mobs=258331
+C 95163 @74.0,38.2 mobs=258331
 T 95163 @70.7,28.1 id=256728
 A 95121 @79.0,54.2 id=259962 lvl=40 req=36 danger=1
-C 95121 @73.5,68.8 mobs=255901,256807,256801,255899,255898 danger=1
+C 95121 @74.0,66.3 mobs=255901,256807,256801,255899,255898 danger=1
 T 95121 @79.0,54.2 id=259962 danger=1
-C 94532 @30.9,61.4 mobs=255772,255769,255770
-C 94535 @30.9,62.1 mobs=255769,255772,255770,255774,255906
+C 94532 @30.7,59.3 mobs=255769,255772,255770
+C 94535 @30.7,58.9 mobs=255769,255772,255770,255774,255906
 H "Utilise ta pierre de foyer" @58.0,45.1 id=256675
 T 94532 @60.5,47.9 id=258031
 T 94535 @59.9,46.0 id=256657
@@ -1021,9 +1022,9 @@ A 94672 @59.5,44.0 id=256710 lvl=41 req=36
 A 94680 @59.5,44.0 id=256710 lvl=41 req=36
 A 95033 @58.1,45.3 id=263190 lvl=41 req=40
 A 96105 @60.5,47.9 group=1 id=258031 lvl=41 req=36
-C 96105 @60.1,52.5 group=1 mobs=263315
-C 94672 @48.3,49.2 mobs=256952,256798,254560
-C 94680 @47.6,48.7 mobs=254560
+C 96105 @60.1,52.6 group=1 mobs=263315
+C 94672 @47.7,49.4 mobs=256952,256798,254560
+C 94680 @47.6,48.5 mobs=254560
 T 94672 @59.5,44.0 id=256710
 T 94680 @59.5,44.0 id=256710
 A 94727 @59.5,44.0 id=256710 lvl=40 req=36
@@ -1036,14 +1037,11 @@ T 95602 @50.0,47.0 id=260931
 A 95601 @49.2,46.7 id=261208 lvl=40 req=36
 C 95601 @48.6,48.8 mobs=262169,261711
 T 95601 @50.0,47.0 id=260931
-A 95183 @69.7,25.9 id=259988 lvl=41 req=38
 A 94556 @73.4,24.8 id=258048 lvl=42 req=36
-C 95183 @74.2,35.3
-T 95183 @67.2,21.8 id=263440
 T 94556 @64.2,15.7 id=255829
 A 95118 @79.5,52.7 id=259961 lvl=41 req=36
 A 95260 @72.4,61.9 lvl=42 req=38
-C 95118 @74.5,69.8 mobs=256801,255898
+C 95118 @73.6,67.8 mobs=256801,255898
 T 95118 @79.5,52.7 id=259961
 T 95260 @80.0,52.5 id=260231
 ]],
@@ -1113,15 +1111,15 @@ A 95992 @59.5,47.0 group=1 lvl=42 req=38
 A 95254 @78.5,53.9 lvl=42 req=36
 A 95261 @80.0,52.5 id=260231 lvl=42 req=38
 A 95120 @78.5,53.9 group=1 lvl=42 req=36
-C 95120 @76.9,72.7 group=1 mobs=257001
-C 95254 @82.7,51.6 mobs=260235
-T 95254 @79.0,54.2 id=259962
+C 95120 @77.0,72.6 group=1 mobs=257001
+C 95254 @82.5,51.7 mobs=260235
 T 95120 @79.5,52.7 group=1 id=259961
-C 95261 @58.9,57.8 mobs=259046,263380,263348,263343,259269
-C 95992 @51.3,70.7 group=1 mobs=263380
+T 95254 @79.0,54.2 id=259962
+C 95261 @59.9,55.9 mobs=259046,263380,263348,263343,259269
+C 95992 @51.1,70.9 group=1 mobs=263380
 T 95261 @80.0,52.5 id=260231
 A 95267 @80.0,52.5 id=260231 lvl=42 req=38
-C 95267 @74.4,72.0 mobs=260244
+C 95267 @74.5,72.1 mobs=260244
 T 95267 @80.0,52.5 id=260231
 A 95792 @30.2,69.1 id=262399 lvl=42 req=36
 A 95934 @30.2,69.1 id=262399 lvl=42 req=36
@@ -1135,13 +1133,13 @@ T 95934 @30.2,69.1 id=262399
 
 ns.RegisterGuide({
     id = "horde-undead-41-stv-5",
-    name = "Vallée de Strangleronce 41-43",
+    name = "Vallée de Strangleronce 41-42",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
-    minLevel = 41, maxLevel = 43,
-    next = "horde-undead-43-swamp-2",
+    minLevel = 41, maxLevel = 42,
+    next = "horde-undead-42-riverglades-4",
     text = [[
 M stv
-G "Rejoins Vallée de Strangleronce" @32.1,29.2 r=40 upto=45
+G "Rejoins Vallée de Strangleronce" @32.1,29.2 r=40 upto=44
 B "Lie ta pierre de foyer à l'auberge" @31.5,29.8 id=5814
 A 570 @32.1,29.2 id=2465 lvl=38 req=33 danger=1
 A 584 @32.2,27.7 id=2497 lvl=41 req=30
@@ -1172,7 +1170,7 @@ T 95748 @32.3,27.7 id=2519
 A 585 @32.2,27.6 lvl=40 req=30
 A 95770 @32.3,27.7 id=2519 lvl=40 req=30
 A 95773 @32.2,28.9 id=2464 lvl=37 req=30
-C 95773 @25.8,28.3 mobs=262397
+C 95773 @25.6,27.0 mobs=262397
 C 95770 @22.4,27.2
 T 95770 @32.3,27.7 id=2519
 T 95773 @32.2,28.9 id=2464
@@ -1206,20 +1204,44 @@ T 607 @27.8,77.1 id=2501
 T 571 @32.1,29.2 id=2465
 C 209 @46.4,40.1 mobs=667,696,780,783,669 danger=1
 T 209 @27.0,77.1 id=737 danger=1
-A 587 @26.9,77.3 id=2488 lvl=41 req=37 danger=1
-A 609 @27.8,77.1 id=2501 lvl=44 req=30
-A 2864 @26.9,77.2 id=773 lvl=45 req=40
-A 2872 @27.8,77.1 id=2501 lvl=45 req=40
-A 576 @28.6,75.9 id=2493 lvl=42 req=37 danger=1
-C 587 @30.0,89.3 mobs=1565,1653,1564,1563,4505 danger=1
-C 576 @30.0,89.3 mobs=1565,1653,1564,1563,4505 danger=1
-T 587 @26.9,77.3 id=2488 danger=1
-T 576 @28.6,75.9 id=2493 danger=1
-C 609 @35.1,51.6 mobs=2535,2536,2537
-A 573 @32.1,29.2 id=2465 lvl=44 req=33
-C 573 @27.1,62.2 mobs=1907
-T 609 @27.8,77.1 id=2501
-T 573 @32.1,29.2 id=2465
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-42-riverglades-4",
+    name = "Rives Claires 42-43",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 42, maxLevel = 43,
+    next = "horde-undead-43-swamp-2",
+    text = [[
+M riverglades
+G "Rejoins Rives Claires" @79.5,52.7 r=40 upto=45
+T 97332 @79.5,52.7 id=259961
+A 95119 @79.5,52.7 id=259961 lvl=43 req=38
+A 95288 @77.1,52.9 id=255897 lvl=43 req=38
+C 95119 @87.4,38.1 mobs=257901,257910
+C 95288 @87.4,38.1 mobs=257901,257910
+T 95119 @79.5,52.7 id=259961
+T 95288 @77.1,52.9 id=255897
+A 95122 @79.5,52.7 id=259961 lvl=44 req=38 danger=1
+A 95123 @79.5,52.7 id=259961 lvl=44 req=38
+A 95293 @77.1,52.9 id=255897 lvl=42 req=38
+C 95122 @78.4,36.0 mobs=257915,257916 danger=1
+C 95123 @78.8,34.3
+T 95122 @79.5,52.7 id=259961 danger=1
+T 95123 @79.5,52.7 id=259961
+A 95165 @79.5,52.7 id=259961 lvl=44 req=38
+T 95165 @79.5,52.7 id=259961
+T 95293 @91.3,39.7 id=260390
+A 95294 @91.2,39.8 id=260391 lvl=42 req=38
+T 95294 @77.1,52.9 id=255897
+A 95295 @77.1,52.9 id=255897 lvl=40 req=36
+A 95296 @77.1,52.9 id=255897 lvl=40 req=36
+A 95882 @59.6,47.0 lvl=43 req=38
+T 94533 @60.5,47.9 group=1 id=258031
+T 95992 @58.1,45.3 group=1 id=263190
+C 95882 @75.7,34.1 mobs=260211
+T 95882 @60.5,47.9 id=258031
 ]],
 })
 
@@ -1228,10 +1250,10 @@ ns.RegisterGuide({
     name = "Marais des Chagrins 43-44",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 43, maxLevel = 44,
-    next = "horde-undead-43-riverglades-4",
+    next = "horde-undead-44-stv-6",
     text = [[
 M swamp
-G "Rejoins Marais des Chagrins" @44.7,57.2 r=40 upto=45
+G "Rejoins Marais des Chagrins" @44.7,57.2 r=40 upto=46
 B "Lie ta pierre de foyer à l'auberge" @45.2,56.7 id=6930
 T 1420 @47.7,55.2 id=1442
 A 698 @44.7,57.2 id=5591 lvl=40 req=35
@@ -1255,49 +1277,50 @@ C 1426 @84.3,88.6 mobs=750,751,747
 T 1426 @83.8,80.4 id=5593
 A 1427 @83.8,80.4 id=5593 lvl=43 req=35
 T 1427 @81.3,81.0 id=5592
+A 1428 @83.8,80.4 id=5593 lvl=45 req=35
+C 1428 @63.2,84.8 mobs=750,751,752
+T 1428 @83.8,80.4 id=5593
 H "Utilise ta pierre de foyer" @45.2,56.7 id=6930
 T 1430 @44.7,57.2 id=5591
 ]],
 })
 
 ns.RegisterGuide({
-    id = "horde-undead-43-riverglades-4",
-    name = "Rives Claires 43-44",
+    id = "horde-undead-44-stv-6",
+    name = "Vallée de Strangleronce 44-45",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
-    minLevel = 43, maxLevel = 44,
+    minLevel = 44, maxLevel = 45,
     next = "horde-undead-44-badlands-2",
     text = [[
-M riverglades
-G "Rejoins Rives Claires" @79.5,52.7 r=40 upto=46
-T 97332 @79.5,52.7 id=259961
-A 95119 @79.5,52.7 id=259961 lvl=43 req=38
-A 95288 @77.1,52.9 id=255897 lvl=43 req=38
-C 95119 @87.4,36.3 mobs=257901,257910
-C 95288 @87.4,36.3 mobs=257901,257910
-T 95119 @79.5,52.7 id=259961
-T 95288 @77.1,52.9 id=255897
-A 95122 @79.5,52.7 id=259961 lvl=44 req=38
-A 95123 @79.5,52.7 id=259961 lvl=44 req=38
-A 95293 @77.1,52.9 id=255897 lvl=42 req=38
-C 95122 @78.3,35.8 mobs=257915,257916
-C 95123 @78.8,34.3
-T 95122 @79.5,52.7 id=259961
-T 95123 @79.5,52.7 id=259961
-A 95124 @79.5,52.7 id=259961 lvl=45 req=38
-A 95165 @79.5,52.7 id=259961 lvl=44 req=38
-T 95165 @79.5,52.7 id=259961
-T 95293 @91.3,39.7 id=260390
-A 95294 @91.2,39.8 id=260391 lvl=42 req=38
-C 95124 @89.9,29.7 mobs=257861
-T 95124 @79.5,52.7 id=259961
-T 95294 @77.1,52.9 id=255897
-A 95295 @77.1,52.9 id=255897 lvl=40 req=36
-A 95296 @77.1,52.9 id=255897 lvl=40 req=36
-A 95882 @59.6,47.0 lvl=43 req=38
-T 94533 @60.5,47.9 group=1 id=258031
-T 95992 @58.1,45.3 group=1 id=263190
-C 95882 @75.7,34.1 mobs=260211
-T 95882 @60.5,47.9 id=258031
+M stv
+G "Rejoins Vallée de Strangleronce" @28.6,75.9 r=40 upto=46
+B "Lie ta pierre de foyer à l'auberge" @27.0,77.3 id=6807
+A 576 @28.6,75.9 id=2493 lvl=42 req=37
+A 609 @27.8,77.1 id=2501 lvl=44 req=30
+A 2872 @27.8,77.1 id=2501 lvl=45 req=40
+A 587 @26.9,77.3 id=2488 lvl=41 req=37
+A 621 @27.1,77.2 id=2498 lvl=44 req=35 danger=1
+A 2864 @26.9,77.2 id=773 lvl=45 req=40
+T 95295 @27.4,74.1 id=3945
+A 95322 @27.4,74.1 id=3945 lvl=40 req=36
+T 95322 @27.4,74.1 id=3945
+A 95325 @27.4,74.1 id=3945 lvl=40 req=36
+C 576 @30.0,89.3 mobs=1565,1653,1564,1563,4505
+C 587 @30.0,89.3 mobs=1565,1653,1564,1563,4505
+T 587 @26.9,77.3 id=2488
+T 576 @28.6,75.9 id=2493
+C 621 @39.7,58.3 mobs=1491,1488,1490,1489,2534 danger=1
+C 609 @35.1,51.6 mobs=2535,2536,2537
+A 573 @32.1,29.2 id=2465 lvl=44 req=33
+T 95325 @42.8,18.5
+A 95326 @42.8,18.5 lvl=39 req=36
+C 95326 @43.6,20.0 mobs=260429
+C 573 @27.1,62.2 mobs=1907
+T 95326 @27.4,74.1 id=3945
+A 95327 @27.4,74.1 id=3945 lvl=40 req=36
+T 609 @27.8,77.1 id=2501
+T 621 @27.1,77.2 id=2498 danger=1
+T 573 @32.1,29.2 id=2465
 ]],
 })
 
@@ -1306,10 +1329,10 @@ ns.RegisterGuide({
     name = "Terres ingrates 44-45",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 44, maxLevel = 45,
-    next = "horde-undead-44-stv-6",
+    next = "horde-undead-45-tanaris",
     text = [[
 M badlands
-G "Rejoins Terres ingrates" @2.9,45.6 r=40 upto=46
+G "Rejoins Terres ingrates" @2.9,45.6 r=40 upto=47
 A 782 @2.9,45.6 id=1068 lvl=43 req=40
 A 1419 @6.5,47.2 id=5394 lvl=40 req=30
 A 2258 @2.4,46.1 id=6868 lvl=39 req=36
@@ -1332,58 +1355,27 @@ T 2202 @2.4,46.1 id=6868
 })
 
 ns.RegisterGuide({
-    id = "horde-undead-44-stv-6",
-    name = "Vallée de Strangleronce 44-45",
-    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
-    minLevel = 44, maxLevel = 45,
-    next = "horde-undead-45-tanaris",
-    text = [[
-M stv
-G "Rejoins Vallée de Strangleronce" @27.1,77.2 r=40 upto=47
-A 621 @27.1,77.2 id=2498 lvl=44 req=35 danger=1
-T 95295 @27.4,74.1 id=3945
-A 95322 @27.4,74.1 id=3945 lvl=40 req=36
-T 95322 @27.4,74.1 id=3945
-A 95325 @27.4,74.1 id=3945 lvl=40 req=36
-C 621 @39.7,58.3 mobs=1491,1488,1490,1489,2534 danger=1
-T 621 @27.1,77.2 id=2498 danger=1
-A 586 @32.2,27.6 lvl=46 req=30
-T 95325 @42.8,18.5
-A 95326 @42.8,18.5 lvl=39 req=36
-C 95326 @43.6,20.1 mobs=260429
-C 586 @46.8,43.5 mobs=783,669,781,1059
-T 586 @32.2,27.6
-A 588 @32.2,27.6 lvl=45 req=30
-T 588 @32.3,27.7 id=2519
-A 589 @32.3,27.7 id=2519 lvl=45 req=30
-C 589 @43.1,47.8 mobs=1551
-T 589 @32.3,27.7 id=2519
-T 95326 @27.4,74.1 id=3945
-]],
-})
-
-ns.RegisterGuide({
     id = "horde-undead-45-tanaris",
     name = "Tanaris 45-46",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 45, maxLevel = 46,
-    next = "horde-undead-46-feralas",
+    next = "horde-undead-45-dustwallow-2",
     text = [[
 M tanaris
-G "Rejoins Tanaris" @52.5,28.5 r=40 upto=48
+G "Rejoins Tanaris" @52.5,28.5 r=40 upto=47
 B "Lie ta pierre de foyer à l'auberge" @52.5,27.9 id=7733
 A 1690 @52.5,28.5 id=7407 lvl=43 req=40
 A 1707 @52.5,28.4 id=7408 lvl=44 req=40
 A 2781 @51.8,27.0 lvl=46 req=39
 A 97534 @51.1,27.9 id=11756 lvl=45 req=40
 T 2864 @51.6,26.8 id=7876
-C 97534 @48.7,30.5
+C 97534 @52.0,35.4
 T 97534 @51.1,27.9 id=11756
 C 1690 @63.5,31.3 mobs=5616,5618
 C 1707 @63.5,31.3 mobs=5616,5617,5615,5618,5623
 C 2781 @61.8,38.2 mobs=7847
-T 2872 @67.1,24.0 id=7881
 T 95296 @67.6,23.1 id=260405
+T 2872 @67.1,24.0 id=7881
 A 2873 @67.1,24.0 id=7881 lvl=45 req=40
 A 2875 @66.8,22.3 lvl=45 req=40
 A 8365 @66.6,22.3 id=15165 lvl=45 req=40
@@ -1402,6 +1394,7 @@ C 1691 @59.8,37.8 mobs=5617,5615,5623
 T 1691 @52.5,28.5 id=7407
 C 95321 @67.3,24.0 mobs=260857
 T 95321 @67.3,24.0 id=260857
+A 95472 @67.3,24.0 id=260857 lvl=40 req=36
 C 2873 @72.2,46.8
 C 2875 @73.4,47.1 mobs=7883
 C 8365 @73.5,47.2 mobs=7858,7857,7856,7855,7883
@@ -1410,75 +1403,19 @@ T 2873 @67.1,24.0 id=7881
 T 2875 @67.1,23.9 id=7882
 T 8365 @66.6,22.3 id=15165
 T 8366 @67.1,23.9 id=7882
-A 97530 @67.1,23.9 id=7882 lvl=47 req=40 danger=1
-A 2741 @52.4,27.0 lvl=47 req=42
-C 97530 @40.3,52.5 mobs=5474,5472,5475,5471,5473 danger=1
-T 97530 @67.1,23.9 id=7882 danger=1
+A 2874 @67.1,24.0 id=7881 lvl=45 req=40
 ]],
 })
 
 ns.RegisterGuide({
-    id = "horde-undead-46-feralas",
-    name = "Féralas 46-47",
+    id = "horde-undead-45-dustwallow-2",
+    name = "Marécage d'Âprefange 45-46",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
-    minLevel = 46, maxLevel = 47,
-    next = "horde-undead-46-dustwallow-2",
-    text = [[
-M feralas
-G "Rejoins Féralas" @74.4,42.9 r=40 upto=48
-B "Lie ta pierre de foyer à l'auberge" @74.8,45.2 id=7737
-T 95033 @74.4,43.4 id=8115
-A 2822 @74.4,42.9 id=7854 lvl=46 req=40 danger=1
-A 2862 @74.9,42.5 id=7875 lvl=42 req=39
-A 3121 @74.4,43.4 id=8115 lvl=45 req=40
-A 92878 @74.9,44.0 group=1 id=11752 lvl=43 req=36
-A 2973 @75.9,42.7 id=4544 lvl=45 req=38
-A 2975 @75.8,43.6 id=7777 lvl=43 req=38
-C 2973 @67.4,47.5 mobs=5278,7997
-C 92878 @67.5,39.0 group=1 mobs=222286
-C 2862 @70.4,54.6 mobs=5254,5255,5251,5249,5253
-T 2862 @74.9,42.5 id=7875
-T 2973 @75.9,42.7 id=4544
-A 2863 @74.9,42.5 id=7875 lvl=43 req=39
-A 2974 @75.9,42.7 id=4544 lvl=45 req=38
-T 92878 @74.9,44.0 group=1 id=11752
-C 2974 @67.0,46.9 mobs=7725,7726,7727
-C 2863 @65.6,52.5 mobs=5258
-H "Utilise ta pierre de foyer" @74.8,45.2 id=7737
-T 2863 @74.9,42.5 id=7875
-T 2974 @75.9,42.7 id=4544
-A 2902 @74.9,42.5 id=7875 lvl=43 req=39
-A 2976 @75.9,42.7 id=4544 lvl=45 req=37
-T 2902 @71.6,55.9
-A 2903 @71.6,55.9 lvl=43 req=39
-T 2903 @74.9,42.5 id=7875
-A 7730 @74.9,42.5 id=7875 lvl=45 req=39
-A 7731 @74.9,42.5 id=7875 lvl=47 req=39
-C 2975 @75.0,27.4 mobs=5232,5229,5237
-T 2975 @75.8,43.6 id=7777
-A 2980 @75.8,43.6 id=7777 lvl=44 req=38
-C 7731 @77.0,61.6 mobs=14661
-C 7730 @73.7,63.1 mobs=5247,5244,5245,5246,14661
-T 7730 @74.9,42.5 id=7875
-T 7731 @74.9,42.5 id=7875
-A 7732 @74.9,42.5 id=7875 lvl=48 req=39
-C 2980 @60.9,56.2 mobs=5236,5240,5234
-C 2822 @51.8,58.9 mobs=5292,5293,5295,5346 danger=1
-C 2741 @57.8,76.6
-T 2822 @74.4,42.9 id=7854 danger=1
-T 2980 @75.8,43.6 id=7777
-]],
-})
-
-ns.RegisterGuide({
-    id = "horde-undead-46-dustwallow-2",
-    name = "Marécage d'Âprefange 46-47",
-    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
-    minLevel = 46, maxLevel = 47,
-    next = "horde-undead-47-orgrimmar",
+    minLevel = 45, maxLevel = 46,
+    next = "horde-undead-46-feralas",
     text = [[
 M dustwallow
-G "Rejoins Marécage d'Âprefange" @36.3,31.4 r=40 upto=49
+G "Rejoins Marécage d'Âprefange" @36.3,31.4 r=40 upto=48
 A 1166 @36.3,31.4 id=4500 lvl=43 req=38
 A 1168 @37.4,31.4 id=4502 lvl=43 req=38
 A 1169 @37.1,33.1 id=4501 lvl=43 req=38
@@ -1507,8 +1444,67 @@ A 1171 @36.3,31.4 id=4500 lvl=43 req=38
 T 1171 @37.1,33.1 id=4501
 A 1172 @37.1,33.1 id=4501 lvl=45 req=38
 T 1261 @35.2,30.7 id=4791
+A 1262 @35.2,30.7 id=4791 lvl=40 req=30
 C 1172 @48.4,74.8
 T 1172 @37.1,33.1 id=4501
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-46-feralas",
+    name = "Féralas 46-47",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 46, maxLevel = 47,
+    next = "horde-undead-47-orgrimmar",
+    text = [[
+M feralas
+G "Rejoins Féralas" @74.4,42.9 r=40 upto=49
+B "Lie ta pierre de foyer à l'auberge" @74.8,45.2 id=7737
+T 95033 @74.4,43.4 id=8115
+A 2822 @74.4,42.9 id=7854 lvl=46 req=40
+A 2862 @74.9,42.5 id=7875 lvl=42 req=39
+A 3121 @74.4,43.4 id=8115 lvl=45 req=40
+A 92878 @74.9,44.0 group=1 id=11752 lvl=43 req=36
+A 2973 @75.9,42.7 id=4544 lvl=45 req=38
+A 2975 @75.8,43.6 id=7777 lvl=43 req=38
+C 2973 @67.4,47.5 mobs=5278,7997
+C 92878 @67.8,39.2 group=1 mobs=222286
+C 2862 @70.4,54.6 mobs=5254,5255,5251,5249,5253
+T 2862 @74.9,42.5 id=7875
+T 2973 @75.9,42.7 id=4544
+A 2863 @74.9,42.5 id=7875 lvl=43 req=39
+A 2974 @75.9,42.7 id=4544 lvl=45 req=38
+T 92878 @74.9,44.0 group=1 id=11752
+C 2974 @67.0,46.9 mobs=7725,7726,7727
+C 2863 @65.6,52.5 mobs=5258
+H "Utilise ta pierre de foyer" @74.8,45.2 id=7737
+T 2863 @74.9,42.5 id=7875
+T 2974 @75.9,42.7 id=4544
+A 2902 @74.9,42.5 id=7875 lvl=43 req=39
+A 2976 @75.9,42.7 id=4544 lvl=45 req=37
+T 2902 @71.6,55.9
+A 2903 @71.6,55.9 lvl=43 req=39
+T 2903 @74.9,42.5 id=7875
+A 7730 @74.9,42.5 id=7875 lvl=45 req=39
+A 7731 @74.9,42.5 id=7875 lvl=47 req=39
+C 2975 @75.0,27.4 mobs=5232,5229,5237
+T 2975 @75.8,43.6 id=7777
+A 2980 @75.8,43.6 id=7777 lvl=44 req=38
+C 7731 @77.0,61.6 mobs=14661
+C 7730 @73.7,63.1 mobs=5247,5244,5245,5246,14661
+T 7730 @74.9,42.5 id=7875
+T 7731 @74.9,42.5 id=7875
+A 7732 @74.9,42.5 id=7875 lvl=48 req=39
+C 2980 @60.9,56.2 mobs=5236,5240,5234
+C 2822 @51.8,58.9 mobs=5292,5293,5295,5346
+A 7721 @44.8,43.4 id=14637 lvl=48 req=45 danger=1
+C 7721 @47.7,52.3 mobs=5462,5461 danger=1
+T 7721 @44.8,43.4 id=14637 danger=1
+T 2822 @74.4,42.9 id=7854
+A 7734 @74.4,42.9 id=7854 lvl=48 req=40 danger=1
+T 2980 @75.8,43.6 id=7777
+C 7734 @53.8,32.1 mobs=5299,5296,5297 danger=1
+T 7734 @74.4,42.9 id=7854 danger=1
 ]],
 })
 
@@ -1517,7 +1513,7 @@ ns.RegisterGuide({
     name = "Orgrimmar 47-48",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 47, maxLevel = 48,
-    next = "horde-undead-47-feralas-2",
+    next = "horde-undead-47-hinterlands",
     text = [[
 M orgrimmar
 G "Rejoins Orgrimmar" @56.3,46.7 r=40 upto=49
@@ -1527,28 +1523,9 @@ T 649 @59.6,36.9 id=6987
 A 650 @59.6,36.9 id=6987 lvl=48 req=42
 T 3121 @49.5,50.6 id=3216
 A 3122 @49.5,50.6 id=3216 lvl=45 req=40
+T 1262 @38.9,38.4 id=4047
 T 2976 @75.2,34.2 id=4485
 A 2981 @75.2,34.2 id=4485 lvl=43 req=38
-]],
-})
-
-ns.RegisterGuide({
-    id = "horde-undead-47-feralas-2",
-    name = "Féralas 47-48",
-    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
-    minLevel = 47, maxLevel = 48,
-    next = "horde-undead-47-hinterlands",
-    text = [[
-M feralas
-H "Utilise ta pierre de foyer" @74.8,45.2 id=7737
-T 3122 @74.4,43.4 id=8115
-T 2981 @75.8,43.6 id=7777
-A 7734 @74.4,42.9 id=7854 lvl=48 req=40 danger=1
-C 7734 @53.8,32.1 mobs=5299,5296,5297 danger=1
-A 7721 @44.8,43.4 id=14637 lvl=48 req=45 danger=1
-C 7721 @47.7,52.3 mobs=5462,5461 danger=1
-T 7721 @44.8,43.4 id=14637 danger=1
-T 7734 @74.4,42.9 id=7854 danger=1
 ]],
 })
 
@@ -1578,6 +1555,7 @@ T 650 @26.7,48.6 id=7801
 A 77 @26.7,48.6 id=7801 lvl=48 req=42
 C 7841 @31.1,47.8 mobs=2692,2693,2691,2694
 C 77 @58.2,41.8
+T 77 @26.7,48.6 id=7801
 H "Utilise ta pierre de foyer" @78.1,81.4 id=14731
 T 7828 @79.2,79.5 id=14741
 T 7829 @79.2,79.5 id=14741
@@ -1588,9 +1566,7 @@ T 7844 @78.8,78.2 id=14739
 A 7842 @79.4,79.1 id=14738 lvl=48 req=44
 A 98203 @78.0,77.8 id=270780 lvl=49 req=45
 C 7842 @30.8,58.4 mobs=6375,2651,5300,2657,2347
-C 98203 @25.8,65.3 mobs=270772
-T 77 @26.7,48.6 id=7801
-A 81 @26.7,48.6 id=7801 lvl=48 req=42
+C 98203 @26.0,65.5 mobs=270772
 T 7842 @79.4,79.1 id=14738
 T 98203 @78.0,77.8 id=270780
 ]],
@@ -1601,7 +1577,7 @@ ns.RegisterGuide({
     name = "Gorge des Vents brûlants 48-49",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 48, maxLevel = 49,
-    next = "horde-undead-48-tanaris-2",
+    next = "horde-undead-48-stv-7",
     text = [[
 M searing
 G "Rejoins Gorge des Vents brûlants" @38.6,27.8 r=40 upto=50
@@ -1624,32 +1600,43 @@ T 7728 @39.0,27.5 id=14626
 })
 
 ns.RegisterGuide({
-    id = "horde-undead-48-tanaris-2",
-    name = "Tanaris 48-49",
+    id = "horde-undead-48-stv-7",
+    name = "Vallée de Strangleronce 48-49",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 48, maxLevel = 49,
+    next = "horde-undead-48-riverglades-5",
+    text = [[
+M stv
+G "Rejoins Vallée de Strangleronce" @27.2,77.0 r=40 upto=50
+T 2874 @27.8,77.1 id=2501
+A 608 @27.2,77.0 id=2487 lvl=45 req=37
+C 608 @32.9,88.2 mobs=2550,2548,2546
+T 608 @27.2,77.0 id=2487
+A 586 @32.2,27.6 lvl=46 req=30
+C 586 @46.8,43.5 mobs=783,669,781,1059
+T 586 @32.2,27.6
+A 588 @32.2,27.6 lvl=45 req=30
+T 588 @32.3,27.7 id=2519
+A 589 @32.3,27.7 id=2519 lvl=45 req=30
+C 589 @43.1,47.8 mobs=1551
+T 589 @32.3,27.7 id=2519
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-48-riverglades-5",
+    name = "Rives Claires 48-49",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 48, maxLevel = 49,
     next = "horde-undead-49-hinterlands-2",
     text = [[
-M tanaris
-G "Rejoins Tanaris" @51.8,28.7 r=40 upto=51
-T 2741 @52.4,27.0
-A 2605 @51.8,28.7 id=7564 lvl=49 req=44
-A 5863 @52.8,27.4 id=11758 lvl=49 req=44
-A 3161 @52.7,45.9 id=7771 lvl=48 req=43
-C 5863 @40.8,52.5 mobs=5474,5472,12046
-C 3161 @47.1,65.2
-T 3161 @52.7,45.9 id=7771
-T 5863 @52.8,27.4 id=11758
-A 3362 @51.6,26.8 id=7876 lvl=50 req=45
-A 97540 @31.8,74.2 id=5955 lvl=50 req=40
-T 97540 @31.8,74.2 id=5955
-C 2605 @29.7,66.0 mobs=5481
-C 3362 @29.6,66.0 mobs=5485,5490
-T 2605 @51.8,28.7 id=7564
-T 3362 @51.6,26.8 id=7876
-A 2606 @51.8,28.7 id=7564 lvl=49 req=44
-T 2606 @51.1,26.9 id=7583
-A 2641 @51.1,26.9 id=7583 lvl=49 req=44
+M riverglades
+G "Rejoins Rives Claires" @79.5,52.7 r=40 upto=51
+T 95327 @77.1,52.9 id=255897
+T 95472 @77.1,52.9 id=255897
+A 95124 @79.5,52.7 id=259961 lvl=45 req=38
+C 95124 @89.8,29.7 mobs=257861
+T 95124 @79.5,52.7 id=259961
 ]],
 })
 
@@ -1658,7 +1645,7 @@ ns.RegisterGuide({
     name = "Les Hinterlands 49-50",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 49, maxLevel = 50,
-    next = "horde-undead-49-felwood",
+    next = "horde-undead-49-tanaris-2",
     text = [[
 M hinterlands
 H "Utilise ta pierre de foyer" @78.1,81.4 id=14731
@@ -1669,11 +1656,76 @@ A 7850 @78.2,81.2 id=14736 lvl=50 req=46
 C 7850 @66.3,70.9
 T 7845 @59.7,77.8 id=14757
 C 7849 @58.6,64.8
-C 2641 @40.6,59.7
 T 7849 @79.2,79.5 id=14741
 T 7850 @78.2,81.2 id=14736
 C 7815 @83.0,55.2 mobs=2505
 T 7815 @80.3,81.5 id=14740
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-49-tanaris-2",
+    name = "Tanaris 49-50",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 49, maxLevel = 50,
+    next = "horde-undead-49-feralas-2",
+    text = [[
+M tanaris
+G "Rejoins Tanaris" @51.8,28.7 r=40 upto=51
+A 2605 @51.8,28.7 id=7564 lvl=49 req=44
+A 2741 @52.4,27.0 lvl=47 req=42
+A 3362 @51.6,26.8 id=7876 lvl=50 req=45
+A 5863 @52.8,27.4 id=11758 lvl=49 req=44
+A 3161 @52.7,45.9 id=7771 lvl=48 req=43
+C 5863 @40.8,52.5 mobs=5474,5472,12046
+C 3161 @47.1,65.2
+T 3161 @52.7,45.9 id=7771
+T 5863 @52.8,27.4 id=11758
+A 97530 @67.1,23.9 id=7882 lvl=47 req=40
+C 97530 @40.3,52.5 mobs=5474,5472,5475,5471,5473
+C 2605 @29.7,66.0 mobs=5481
+C 3362 @29.6,66.0 mobs=5485,5490
+T 2605 @51.8,28.7 id=7564
+T 3362 @51.6,26.8 id=7876
+A 2606 @51.8,28.7 id=7564 lvl=49 req=44
+T 2606 @51.1,26.9 id=7583
+T 97530 @67.1,23.9 id=7882
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-49-feralas-2",
+    name = "Féralas 49-50",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 49, maxLevel = 50,
+    next = "horde-undead-49-tanaris-3",
+    text = [[
+M feralas
+G "Rejoins Féralas" @76.2,43.8 r=40 upto=51
+T 2981 @75.8,43.6 id=7777
+A 3063 @76.2,43.8 id=7776 lvl=50 req=45
+T 3122 @74.4,43.4 id=8115
+A 3128 @74.4,43.4 id=8115 lvl=50 req=40
+A 3380 @74.4,43.4 id=8115 lvl=51 req=46
+C 3128 @55.0,72.0 mobs=2928,2927,5305,5304,5357
+C 2741 @57.8,76.6
+T 3128 @74.4,43.4 id=8115
+C 3063 @39.2,13.2 mobs=5366,5362,5364,5363
+T 3063 @76.2,43.8 id=7776
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-49-tanaris-3",
+    name = "Tanaris 49-50",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 49, maxLevel = 50,
+    next = "horde-undead-49-felwood",
+    text = [[
+M tanaris
+G "Rejoins Tanaris" @52.4,27.0 r=40 upto=51
+T 2741 @52.4,27.0
+T 3380 @52.7,45.9 id=7771
 ]],
 })
 
@@ -1704,7 +1756,7 @@ ns.RegisterGuide({
     name = "Azshara 50-51",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 50, maxLevel = 51,
-    next = "horde-undead-51-feralas-3",
+    next = "horde-undead-51-ungoro",
     text = [[
 M azshara
 G "Rejoins Azshara" @11.4,78.2 r=40 upto=52
@@ -1715,7 +1767,7 @@ C 5536 @20.1,61.8 mobs=6125,6126,6127
 A 91568 @22.5,51.8 id=247473 lvl=51 req=45
 T 5535 @11.4,78.2 id=11548
 T 5536 @11.4,78.2 id=11548
-C 91568 @46.3,51.0 mobs=247470
+C 91568 @46.7,53.1 mobs=247470
 T 91568 @22.5,51.8 id=247473
 L 51 "Tue des monstres autour de toi jusqu'au niveau 51"
 A 3517 @22.6,51.4 id=8587 lvl=52 req=45
@@ -1732,27 +1784,8 @@ T 3565 @22.6,51.4 id=8587
 C 91488 @49.8,81.2 mobs=8761,8759,8760 danger=1
 T 91488 @21.8,52.1 id=3621 danger=1
 A 91608 @21.8,52.1 id=3621 lvl=48 req=45
-C 91608 @18.9,55.3 mobs=236028
+C 91608 @18.8,56.7 mobs=236028
 T 91608 @21.8,52.1 id=3621
-]],
-})
-
-ns.RegisterGuide({
-    id = "horde-undead-51-feralas-3",
-    name = "Féralas 51-52",
-    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
-    minLevel = 51, maxLevel = 52,
-    next = "horde-undead-51-ungoro",
-    text = [[
-M feralas
-G "Rejoins Féralas" @76.2,43.8 r=40 upto=53
-A 3063 @76.2,43.8 id=7776 lvl=50 req=45
-A 3128 @74.4,43.4 id=8115 lvl=50 req=40
-A 3380 @74.4,43.4 id=8115 lvl=51 req=46
-C 3128 @55.0,72.0 mobs=2928,2927,5305,5304,5357
-T 3128 @74.4,43.4 id=8115
-C 3063 @39.2,13.2 mobs=5366,5362,5364,5363
-T 3063 @76.2,43.8 id=7776
 ]],
 })
 
@@ -1761,7 +1794,7 @@ ns.RegisterGuide({
     name = "Cratère d'Un'Goro 51-52",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 51, maxLevel = 52,
-    next = "horde-undead-51-tanaris-3",
+    next = "horde-undead-51-blasted",
     text = [[
 M ungoro
 G "Rejoins Cratère d'Un'Goro" @45.5,8.7 r=40 upto=53
@@ -1776,45 +1809,11 @@ T 4145 @45.5,8.7 id=9118 danger=1
 })
 
 ns.RegisterGuide({
-    id = "horde-undead-51-tanaris-3",
-    name = "Tanaris 51-52",
-    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
-    minLevel = 51, maxLevel = 52,
-    next = "horde-undead-51-orgrimmar-2",
-    text = [[
-M tanaris
-G "Rejoins Tanaris" @67.0,24.0 r=40 upto=53
-T 2641 @51.1,26.9 id=7583
-A 2661 @51.1,26.9 id=7583 lvl=49 req=44
-T 2661 @51.8,28.7 id=7564
-A 2662 @51.8,28.7 id=7564 lvl=49 req=44
-T 2662 @51.8,28.7 id=7564
-T 3380 @52.7,45.9 id=7771
-]],
-})
-
-ns.RegisterGuide({
-    id = "horde-undead-51-orgrimmar-2",
-    name = "Orgrimmar 51-52",
-    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
-    minLevel = 51, maxLevel = 52,
-    next = "horde-undead-51-blasted",
-    text = [[
-M orgrimmar
-G "Rejoins Orgrimmar" @55.5,34.1 r=40 upto=53
-T 81 @59.5,36.6 id=6986
-T 3541 @55.5,34.1 id=8659
-A 3563 @55.5,34.1 id=8659 lvl=52 req=45
-A 91735 @55.5,34.1 id=8659 lvl=52 req=44
-]],
-})
-
-ns.RegisterGuide({
     id = "horde-undead-51-blasted",
     name = "Terres foudroyées 51-52",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 51, maxLevel = 52,
-    next = "horde-undead-52-wpl",
+    next = "horde-undead-51-undercity",
     text = [[
 M blasted
 G "Rejoins Terres foudroyées" @50.5,14.2 r=40 upto=53
@@ -1837,43 +1836,43 @@ T 2603 @50.6,14.3 id=7506
 })
 
 ns.RegisterGuide({
+    id = "horde-undead-51-undercity",
+    name = "Fossoyeuse 51-52",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 51, maxLevel = 52,
+    next = "horde-undead-52-wpl",
+    text = [[
+M undercity
+G "Rejoins Fossoyeuse" @50.1,68.0 r=40 upto=53
+T 3542 @54.8,76.3 id=6522
+A 232 @50.1,68.0 id=5204 lvl=45 req=38
+A 3564 @54.8,76.3 id=6522 lvl=52 req=45
+A 91734 @54.8,76.3 id=6522 lvl=52 req=44
+T 232 @58.6,54.7 id=7683
+A 238 @58.6,54.7 id=7683 lvl=45 req=38
+T 238 @50.1,68.0 id=5204
+A 243 @50.1,68.0 id=5204 lvl=46 req=38
+A 3784 @67.7,37.9 id=6741 lvl=50 req=47
+]],
+})
+
+ns.RegisterGuide({
     id = "horde-undead-52-wpl",
     name = "Maleterres de l'Ouest 52-53",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 52, maxLevel = 53,
-    next = "horde-undead-53-undercity",
+    next = "horde-undead-53-ungoro-2",
     text = [[
 M wpl
 L 53 "Tue des monstres autour de toi jusqu'au niveau 53"
 G "Rejoins Maleterres de l'Ouest" @53.7,64.7 r=40 upto=55
 A 4984 @53.7,64.7 id=10739 lvl=54 req=51
-A 5142 @49.2,78.6 id=10927 lvl=55 req=50
 A 5058 @47.8,50.7 lvl=55 req=52
 T 5058 @47.8,50.7
 C 4984 @45.8,45.9 mobs=1817
 A 5021 @38.4,54.0 id=10778 lvl=52 req=50
 T 5021 @38.7,55.2
-A 5023 @38.7,55.2 lvl=52 req=50
 T 4984 @53.7,64.7 id=10739
-]],
-})
-
-ns.RegisterGuide({
-    id = "horde-undead-53-undercity",
-    name = "Fossoyeuse 53-54",
-    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
-    minLevel = 53, maxLevel = 54,
-    next = "horde-undead-53-ungoro-2",
-    text = [[
-M undercity
-G "Rejoins Fossoyeuse" @73.1,32.9 r=40 upto=55
-T 5023 @69.8,43.2 id=10781
-A 3784 @67.7,37.9 id=6741 lvl=50 req=47
-A 5049 @69.8,43.2 id=10781 lvl=52 req=50
-T 5049 @67.6,44.2 id=8403
-A 5050 @67.6,44.2 id=8403 lvl=52 req=50
-T 3542 @54.8,76.3 id=6522
-A 3564 @54.8,76.3 id=6522 lvl=52 req=45
 ]],
 })
 
@@ -1889,20 +1888,20 @@ G "Rejoins Cratère d'Un'Goro" @44.0,7.1 r=40 upto=55
 A 3881 @44.0,7.1 id=9270 lvl=53 req=48
 A 3882 @43.5,7.4 id=9272 lvl=51 req=49 danger=1
 A 4492 @43.6,8.5 id=9997 lvl=55 req=50
-T 4492 @51.9,49.9 id=9999
-C 3881 @68.5,36.5
-T 3881 @44.0,7.1 id=9270
 A 4503 @44.2,11.6 id=9998 lvl=51 req=49 danger=1
-C 4503 @53.1,62.6 mobs=9167,9164,9163,9166,9165 danger=1
-C 3882 @32.2,75.2 mobs=9164,9163,6501,9162,6502 danger=1
-T 4503 @44.2,11.6 id=9998 danger=1
-T 3882 @43.5,7.4 id=9272 danger=1
 A 4284 @41.9,2.7 id=9117 lvl=53 req=47 danger=1
 C 4284 @67.3,16.0 mobs=6510,9167,9164,6512,9163 danger=1
-T 4284 @41.9,2.7 id=9117 danger=1
+C 3881 @68.5,36.5
+T 4492 @51.9,49.9 id=9999
+C 4503 @53.1,62.6 mobs=9167,9164,9163,9166,9165 danger=1
 A 4290 @71.6,76.0 id=9619 lvl=53 req=48
 C 4290 @68.7,56.7
 T 4290 @71.6,76.0 id=9619
+C 3882 @32.2,75.2 mobs=9164,9163,6501,9162,6502 danger=1
+T 4503 @44.2,11.6 id=9998 danger=1
+T 3881 @44.0,7.1 id=9270
+T 3882 @43.5,7.4 id=9272 danger=1
+T 4284 @41.9,2.7 id=9117 danger=1
 ]],
 })
 
@@ -1911,40 +1910,22 @@ ns.RegisterGuide({
     name = "Azshara 53-54",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 53, maxLevel = 54,
-    next = "horde-undead-53-felwood-2",
+    next = "horde-undead-53-thunderbluff",
     text = [[
 M azshara
 G "Rejoins Azshara" @22.5,51.8 r=40 upto=55
-T 3563 @22.6,51.4 id=8587
-T 91735 @22.6,51.4 id=8587
 T 3564 @22.6,51.4 id=8587
+T 91734 @22.6,51.4 id=8587
 A 91569 @22.5,51.8 id=247473 lvl=53 req=45
 A 92346 @22.6,51.4 id=8587 lvl=55 req=45
 A 3601 @53.5,21.8 id=8420 lvl=53 req=47
 C 3601 @58.2,29.6
 T 3601 @53.5,21.8 id=8420
 A 5534 @53.5,21.8 id=8420 lvl=53 req=47 danger=1
-C 91569 @68.2,28.4 mobs=246920,250448,259620
+C 91569 @68.1,28.4 mobs=246920,250448,259620
 C 5534 @47.1,49.9 mobs=6195,6196,7885,7886 danger=1
 T 5534 @53.5,21.8 id=8420 danger=1
 T 91569 @22.5,51.8 id=247473
-]],
-})
-
-ns.RegisterGuide({
-    id = "horde-undead-53-felwood-2",
-    name = "Gangrebois 53-54",
-    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
-    minLevel = 53, maxLevel = 54,
-    next = "horde-undead-53-thunderbluff",
-    text = [[
-M felwood
-G "Rejoins Gangrebois" @50.9,81.6 r=40 upto=55
-A 5156 @50.9,81.6 id=10921 lvl=54 req=48
-A 8462 @50.9,85.0 id=11554 lvl=55 req=45
-C 5156 @41.8,39.9 mobs=9878,9879
-T 8462 @64.8,8.1 id=15395
-T 5156 @50.9,81.6 id=10921
 ]],
 })
 
@@ -1953,7 +1934,7 @@ ns.RegisterGuide({
     name = "Les Pitons-du-Tonnerre 53-54",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 53, maxLevel = 54,
-    next = "horde-undead-53-ungoro-3",
+    next = "horde-undead-53-orgrimmar-2",
     text = [[
 M thunderbluff
 G "Rejoins Les Pitons-du-Tonnerre" @78.6,28.6 r=40 upto=55
@@ -1964,15 +1945,45 @@ T 92346 @75.7,31.6 id=5770
 })
 
 ns.RegisterGuide({
+    id = "horde-undead-53-orgrimmar-2",
+    name = "Orgrimmar 53-54",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 53, maxLevel = 54,
+    next = "horde-undead-53-tanaris-4",
+    text = [[
+M orgrimmar
+G "Rejoins Orgrimmar" @55.5,34.1 r=40 upto=55
+T 3541 @55.5,34.1 id=8659
+A 4300 @55.5,34.1 id=8659 lvl=52 req=48
+A 4494 @56.3,46.7 id=7010 lvl=53 req=50
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-53-tanaris-4",
+    name = "Tanaris 53-54",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 53, maxLevel = 54,
+    next = "horde-undead-53-ungoro-3",
+    text = [[
+M tanaris
+G "Rejoins Tanaris" @51.6,26.8 r=40 upto=55
+T 4494 @50.9,27.0 id=5594
+T 243 @52.5,28.5 id=7407
+]],
+})
+
+ns.RegisterGuide({
     id = "horde-undead-53-ungoro-3",
     name = "Cratère d'Un'Goro 53-54",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 53, maxLevel = 54,
-    next = "horde-undead-54-felwood-3",
+    next = "horde-undead-54-felwood-2",
     text = [[
 M ungoro
+G "Rejoins Cratère d'Un'Goro" @66.9,15.3 r=40 upto=55
+C 4300 @60.5,77.9 mobs=6505,6508,6506,6507,6581
 L 54 "Tue des monstres autour de toi jusqu'au niveau 54"
-G "Rejoins Cratère d'Un'Goro" @30.9,50.4 r=40 upto=56
 A 974 @30.9,50.4 id=10302 lvl=55 req=51
 C 974 @54.0,55.2 mobs=10541
 A 4289 @71.6,76.0 id=9619 lvl=55 req=47
@@ -1990,26 +2001,63 @@ T 4301 @71.6,76.0 id=9619
 })
 
 ns.RegisterGuide({
-    id = "horde-undead-54-felwood-3",
+    id = "horde-undead-54-felwood-2",
     name = "Gangrebois 54-55",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 54, maxLevel = 55,
-    next = "horde-undead-55-winterspring",
+    next = "horde-undead-54-hyjal",
     text = [[
 M felwood
-L 55 "Tue des monstres autour de toi jusqu'au niveau 55"
-G "Rejoins Gangrebois" @51.2,82.1 r=40 upto=57
-A 91952 @51.2,82.1 id=10922 lvl=55 req=55
-A 95568 @51.2,82.2 id=256222 lvl=56 req=54
-T 91952 @51.2,82.2 id=256222
-A 4102 @46.8,83.1 id=9529 lvl=55 req=48
-A 4521 @34.7,52.8 id=10306 lvl=56 req=52
-C 4102 @58.2,20.3 mobs=7100,7101,7104
+G "Rejoins Gangrebois" @50.9,81.6 r=40 upto=56
+A 5156 @50.9,81.6 id=10921 lvl=54 req=48
+A 8462 @50.9,85.0 id=11554 lvl=55 req=45
+A 4102 @46.8,83.1 id=9529 lvl=55 req=48 danger=1
+C 5156 @41.8,39.9 mobs=9878,9879
+C 4102 @58.2,20.3 mobs=7100,7101,7104 danger=1
+T 8462 @64.8,8.1 id=15395
 A 8461 @64.8,8.1 id=15395 lvl=55 req=45
 C 8461 @62.4,9.2 mobs=7157,7158,7156
 T 8461 @64.8,8.1 id=15395
 A 8465 @64.8,8.1 id=15395 lvl=55 req=45
-T 4102 @46.8,83.1 id=9529
+T 5156 @50.9,81.6 id=10921
+T 4102 @46.8,83.1 id=9529 danger=1
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-54-hyjal",
+    name = "Mont Hyjal 54-55",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 54, maxLevel = 55,
+    next = "horde-undead-55-winterspring",
+    text = [[
+M hyjal
+L 55 "Tue des monstres autour de toi jusqu'au niveau 55"
+G "Rejoins Mont Hyjal" @20.2,78.0 r=40 upto=57
+A 93828 @20.2,78.0 id=256626 lvl=57 req=54
+A 94504 @21.8,79.0 id=256627 lvl=57 req=54
+T 93828 @20.2,78.0 id=256626
+T 94504 @21.8,79.0 id=256627
+A 93615 @31.3,50.3 id=255683 lvl=57 req=54
+T 93615 @31.3,50.3 id=255683
+A 97001 @33.3,41.0 lvl=57 req=54
+A 92008 @60.1,61.2 id=249235 lvl=56 req=54
+A 92594 @60.1,61.2 id=249235 lvl=56 req=54
+T 92008 @60.1,61.2 id=228216
+A 92009 @60.1,61.2 id=228216 lvl=56 req=54
+C 92009 @60.4,62.1
+T 92009 @60.1,61.2 id=249235
+C 92594 @62.8,69.6 mobs=248395
+T 92594 @60.1,61.2 id=249235
+A 91754 @54.0,84.4 id=248367 lvl=56 req=54
+C 91754 @61.8,82.5
+T 91754 @54.0,84.4 id=248367
+A 91755 @54.0,84.4 id=248367 lvl=56 req=54
+C 91755 @62.8,69.6 mobs=248395
+A 94479 @75.3,77.4 lvl=56 req=54
+A 96830 @79.9,70.7 id=266802 lvl=57 req=54
+T 91755 @54.0,84.4 id=248367
+T 96830 @12.9,52.9 id=244512
 ]],
 })
 
@@ -2018,81 +2066,55 @@ ns.RegisterGuide({
     name = "Berceau-de-l'Hiver 55-56",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 55, maxLevel = 56,
-    next = "horde-undead-55-hyjal",
+    next = "horde-undead-55-felwood-3",
     text = [[
 M winterspring
 G "Rejoins Berceau-de-l'Hiver" @60.9,37.6 r=40 upto=57
 A 3783 @60.9,37.6 id=10305 lvl=56 req=52
 A 6029 @61.4,39.0 id=10431 lvl=52 req=50
-A 6030 @61.4,39.0 id=10431 lvl=52 req=50
-C 4521 @60.4,31.7 mobs=7450,7451
 C 3783 @66.7,43.2 mobs=7458,7457
 T 3783 @60.9,37.6 id=10305
-A 6603 @60.7,38.2 id=11754 lvl=56 req=52
+A 6030 @61.4,39.0 id=10431 lvl=52 req=50
 T 980 @31.3,45.2 id=9298
+T 8465 @27.7,34.5 id=11556
+A 6603 @60.7,38.2 id=11754 lvl=56 req=52
+A 6605 @61.1,38.4 id=11755 lvl=54 req=49
 T 6603 @31.3,45.2 id=9298
 A 5082 @31.3,45.2 id=9298 lvl=56 req=52
-T 8465 @27.7,34.5 id=11556
 C 5082 @40.6,43.5 mobs=7442,7440,7441
 T 5082 @31.3,45.2 id=9298
-A 6605 @61.1,38.4 id=11755 lvl=54 req=49
 ]],
 })
 
 ns.RegisterGuide({
-    id = "horde-undead-55-hyjal",
-    name = "Mont Hyjal 55-56",
+    id = "horde-undead-55-felwood-3",
+    name = "Gangrebois 55-56",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 55, maxLevel = 56,
-    next = "horde-undead-55-felwood-4",
+    next = "horde-undead-55-orgrimmar-3",
     text = [[
-M hyjal
-G "Rejoins Mont Hyjal" @20.2,78.0 r=40 upto=57
-A 93828 @20.2,78.0 id=256626 lvl=57 req=54
-A 94504 @21.8,79.0 id=256627 lvl=57 req=54
-A 96666 @21.8,79.2 id=256650 lvl=57 req=54
-T 93828 @20.2,78.0 id=256626
-T 94504 @21.8,79.0 id=256627
-T 96666 @21.8,79.2 id=256650
-A 93615 @31.3,50.3 id=255683 lvl=57 req=54
-T 93615 @31.3,50.3 id=255683
-A 92008 @60.1,61.2 id=249235 lvl=56 req=54
-A 92594 @60.1,61.2 id=249235 lvl=56 req=54
-T 92008 @60.1,61.2 id=228216
-A 92009 @60.1,61.2 id=228216 lvl=56 req=54
-C 92009 @60.4,62.2
-T 92009 @60.1,61.2 id=249235
-C 92594 @62.6,69.1 mobs=248395
-T 92594 @60.1,61.2 id=249235
-A 91754 @54.0,84.4 id=248367 lvl=56 req=54
-C 91754 @61.8,82.5
-T 91754 @54.0,84.4 id=248367
-A 91755 @54.0,84.4 id=248367 lvl=56 req=54
-C 91755 @62.6,69.1 mobs=248395
-A 94479 @75.3,77.4 lvl=56 req=54
-A 96830 @79.9,70.7 id=266802 lvl=57 req=54
-C 95568 @78.9,71.8
-T 91755 @54.0,84.4 id=248367
-T 96830 @12.9,52.9 id=244512
+M felwood
+G "Rejoins Gangrebois" @51.2,82.1 r=40 upto=57
+T 94479 @51.2,82.2 id=256222
+A 91952 @51.2,82.1 id=10922 lvl=55 req=55
+A 95568 @51.2,82.2 id=256222 lvl=56 req=54
+A 96796 @51.2,82.2 id=256222 lvl=56 req=54
+T 91952 @51.2,82.2 id=256222
+T 6605 @34.2,52.3 id=9996
+A 4521 @34.7,52.8 id=10306 lvl=56 req=52
 ]],
 })
 
 ns.RegisterGuide({
-    id = "horde-undead-55-felwood-4",
-    name = "Gangrebois 55-56",
+    id = "horde-undead-55-orgrimmar-3",
+    name = "Orgrimmar 55-56",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 55, maxLevel = 56,
     next = "horde-undead-55-epl",
     text = [[
-M felwood
-G "Rejoins Gangrebois" @51.2,82.2 r=40 upto=57
-T 95568 @51.2,82.2 id=256222
-T 94479 @51.2,82.2 id=256222
-A 93747 @51.2,82.2 id=256222 lvl=56 req=54
-A 96796 @51.2,82.2 id=256222 lvl=56 req=54
-T 93747 @51.2,82.2 id=256222
-T 4521 @34.7,52.8 id=10306
-T 6605 @34.2,52.3 id=9996
+M orgrimmar
+G "Rejoins Orgrimmar" @37.6,75.4 r=40 upto=57
+T 4300 @55.5,34.1 id=8659
 ]],
 })
 
@@ -2101,41 +2123,37 @@ ns.RegisterGuide({
     name = "Maleterres de l'Est 55-56",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 55, maxLevel = 56,
-    next = "horde-undead-56-wpl-2",
+    next = "horde-undead-55-wpl-2",
     text = [[
 M epl
-G "Rejoins Maleterres de l'Est" @71.6,50.1 r=40 upto=58
+G "Rejoins Maleterres de l'Est" @71.6,50.1 r=40 upto=57
 T 6030 @71.6,50.1 id=11039
 A 5503 @71.6,50.1 id=11039 lvl=55 req=50
 T 5503 @71.6,50.1 id=11039
 A 6021 @69.9,53.7 id=11038 lvl=55 req=50
-T 5142 @31.1,78.0 id=10926
 C 6021 @23.1,72.6 mobs=12250
 A 5543 @5.2,35.6 id=1855 lvl=56 req=52
-A 5544 @5.2,35.6 id=1855 lvl=56 req=52
+A 5544 @5.2,35.6 id=1855 lvl=56 req=52 danger=1
 A 6164 @11.4,26.4 id=12384 lvl=55 req=50
 C 6164 @14.0,24.2
 T 6164 @11.4,26.4 id=12384
 C 5543 @13.9,66.6 mobs=8600
 T 5543 @5.2,35.6 id=1855
-A 5542 @5.2,35.6 id=1855 lvl=56 req=52 danger=1
-C 5542 @44.4,31.3 mobs=8598,8596,8597 danger=1
-C 5544 @56.3,23.0 mobs=8603,8605
+C 5544 @56.3,23.0 mobs=8603,8605 danger=1
 T 6021 @69.9,53.7 id=11038
-T 5544 @5.2,35.6 id=1855
-T 5542 @5.2,35.6 id=1855 danger=1
+T 5544 @5.2,35.6 id=1855 danger=1
 ]],
 })
 
 ns.RegisterGuide({
-    id = "horde-undead-56-wpl-2",
-    name = "Maleterres de l'Ouest 56-57",
+    id = "horde-undead-55-wpl-2",
+    name = "Maleterres de l'Ouest 55-56",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
-    minLevel = 56, maxLevel = 57,
-    next = "horde-undead-56-tirisfal-2",
+    minLevel = 55, maxLevel = 56,
+    next = "horde-undead-55-undercity-2",
     text = [[
 M wpl
-G "Rejoins Maleterres de l'Ouest" @53.7,64.7 r=40 upto=58
+G "Rejoins Maleterres de l'Ouest" @53.7,64.7 r=40 upto=57
 A 4985 @53.7,64.7 id=10739 lvl=56 req=51
 C 4985 @64.5,48.1 mobs=1816
 A 7790 @70.1,44.1 id=270191 lvl=57 req=53
@@ -2143,11 +2161,24 @@ T 7790 @70.1,44.1
 A 6004 @51.9,28.1 id=11610 lvl=56 req=50
 C 6004 @51.2,42.7 mobs=1833,1831,10605,1826
 T 6004 @51.9,28.1 id=11610
-A 6023 @51.9,28.1 id=11610 lvl=57 req=50
-C 6023 @57.8,36.1 mobs=11613,11611
-T 6023 @51.9,28.1 id=11610
-T 5050 @38.4,54.0 id=10778
 T 4985 @53.7,64.7 id=10739
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-55-undercity-2",
+    name = "Fossoyeuse 55-56",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 55, maxLevel = 56,
+    next = "horde-undead-56-tirisfal-2",
+    text = [[
+M undercity
+G "Rejoins Fossoyeuse" @54.7,38.8 r=40 upto=58
+T 97001 @54.7,38.8 id=4604
+A 97000 @54.7,38.8 id=4604 lvl=57 req=54
+A 97007 @69.8,43.2 id=10781 lvl=57 req=54
+T 97007 @54.7,38.8 id=4604
+A 5961 @58.0,91.8 id=10181 lvl=56 req=54
 ]],
 })
 
@@ -2156,7 +2187,7 @@ ns.RegisterGuide({
     name = "Clairières de Tirisfal 56-57",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 56, maxLevel = 57,
-    next = "horde-undead-56-hyjal-2",
+    next = "horde-undead-56-epl-2",
     text = [[
 M tirisfal
 G "Rejoins Clairières de Tirisfal" @83.3,72.3 r=40 upto=58
@@ -2168,28 +2199,43 @@ T 93030 @17.6,67.6 id=276110
 })
 
 ns.RegisterGuide({
+    id = "horde-undead-56-epl-2",
+    name = "Maleterres de l'Est 56-57",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 56, maxLevel = 57,
+    next = "horde-undead-56-hyjal-2",
+    text = [[
+M epl
+G "Rejoins Maleterres de l'Est" @5.2,35.6 r=40 upto=58
+A 5542 @5.2,35.6 id=1855 lvl=56 req=52 danger=1
+T 5961 @22.2,63.5 id=11878
+C 5542 @44.4,31.3 mobs=8598,8596,8597 danger=1
+T 5542 @5.2,35.6 id=1855 danger=1
+]],
+})
+
+ns.RegisterGuide({
     id = "horde-undead-56-hyjal-2",
     name = "Mont Hyjal 56-57",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 56, maxLevel = 57,
-    next = "horde-undead-57-winterspring-2",
+    next = "horde-undead-56-winterspring-2",
     text = [[
 M hyjal
-G "Rejoins Mont Hyjal" @21.1,78.5 r=40 upto=59
-A 93833 @21.8,79.2 id=256650 lvl=57 req=54
-A 93834 @21.1,78.5 id=256629 lvl=57 req=54
-C 93834 @21.6,78.6 mobs=256714
-T 93834 @21.1,78.5 id=256629
-A 93952 @20.6,71.7 id=256978 lvl=57 req=54
-A 92100 @20.4,59.2 id=255009 lvl=58 req=54
+G "Rejoins Mont Hyjal" @13.8,54.8 r=40 upto=58
 B "Lie ta pierre de foyer à l'auberge" @12.9,52.9 id=244512
 A 92609 @13.8,54.8 id=244511 lvl=57 req=54
 A 96616 @12.9,52.9 id=244512 lvl=57 req=54
-T 92100 @8.8,46.5
-A 96550 @8.8,46.5 lvl=58 req=54
-T 96550 @8.8,46.5 id=255038
+A 92100 @20.4,59.2 id=255009 lvl=58 req=54
+A 93952 @20.6,71.7 id=256978 lvl=57 req=54
+A 93834 @21.1,78.5 id=256629 lvl=57 req=54
+C 93834 @21.6,78.5 mobs=256714
+T 93834 @21.1,78.5 id=256629
+A 96321 @36.7,78.2 id=278305 lvl=58 req=54
+C 93952 @37.9,68.4 mobs=252063
 A 96979 @32.9,54.4 id=267109 lvl=57 req=56
 T 96979 @32.9,54.4 id=267109
+T 97000 @33.3,41.0
 C 96616 @31.9,44.5
 A 96145 @42.1,52.1 id=268168 lvl=58 req=55
 T 96145 @54.5,63.9 id=260825
@@ -2197,11 +2243,10 @@ T 96796 @60.1,61.2 id=249235
 A 93197 @70.9,51.5 id=243815 lvl=58 req=56
 A 96998 @61.6,41.5 lvl=58 req=54
 T 97319 @79.9,70.7 id=266802
-C 92609 @79.0,72.2 mobs=249053,261914
-A 96321 @36.7,78.2 id=278305 lvl=58 req=54
-C 93833 @32.1,78.1 mobs=249053
-C 93952 @35.5,71.0 mobs=252063
-T 93833 @21.8,79.2 id=256650
+C 95568 @78.9,71.8
+C 92609 @74.6,76.9 mobs=261914,249053
+T 96321 @48.3,85.7 id=257753
+A 96131 @48.3,85.7 id=257753 lvl=58 req=54
 T 93952 @20.6,71.7 id=256978
 A 92111 @20.6,71.7 id=256978 lvl=57 req=54
 T 92111 @21.1,80.2 id=256646
@@ -2213,77 +2258,124 @@ T 91697 @21.8,79.0 id=256627
 A 93825 @20.8,79.8 id=260661 lvl=57 req=54
 A 93826 @21.8,79.0 id=256627 lvl=57 req=54
 C 93825 @30.8,79.2
-C 93826 @35.6,70.9 mobs=252116,252096
-A 91698 @31.5,58.6 id=244425 lvl=58 req=54
-A 96991 @32.9,54.4 id=267109 lvl=59 req=56
-C 91698 @30.7,57.9 mobs=259874
-T 91698 @31.5,58.6 id=244425
-A 91696 @31.5,58.6 id=244425 lvl=58 req=54
-A 90865 @18.8,62.0 id=264089 lvl=58 req=54
+C 93826 @33.2,69.2 mobs=252116,252096
+T 93825 @20.8,79.8 id=260661
+T 93826 @21.8,79.2 id=256650
 T 92609 @13.8,54.8 id=244511
 T 96616 @12.9,52.9 id=244512
 T 96998 @13.8,54.8 id=244511
-A 95026 @13.8,54.8 id=244511 lvl=58 req=54
 A 96622 @12.9,52.9 id=244512 lvl=57 req=54
 T 96622 @12.9,52.9 id=244512
-C 90865 @24.5,53.8 mobs=249237
-C 95026 @24.7,53.3 mobs=249228,249247
-T 90865 @18.8,62.0 id=264089
+T 92100 @8.8,46.5
+A 96550 @8.8,46.5 lvl=58 req=54
+T 96550 @8.8,46.5 id=255038
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-56-winterspring-2",
+    name = "Berceau-de-l'Hiver 56-57",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 56, maxLevel = 57,
+    next = "horde-undead-56-felwood-4",
+    text = [[
+M winterspring
+G "Rejoins Berceau-de-l'Hiver" @60.4,31.7 r=40 upto=58
+C 4521 @60.4,31.7 mobs=7450,7451
+T 93197 @61.4,38.8 id=11118
+A 93406 @61.4,38.8 id=11118 lvl=56 req=56 danger=1
+C 93406 @70.4,40.2 mobs=7458,7457,7459,7460,10197 danger=1
+T 93406 @61.4,38.8 id=11118 danger=1
+A 93269 @61.4,38.8 id=11118 lvl=58 req=56
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-56-felwood-4",
+    name = "Gangrebois 56-57",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 56, maxLevel = 57,
+    next = "horde-undead-57-hyjal-3",
+    text = [[
+M felwood
+G "Rejoins Gangrebois" @51.2,82.2 r=40 upto=59
+T 95568 @51.2,82.2 id=256222
+T 96131 @51.2,82.2 id=256222
+A 93747 @51.2,82.2 id=256222 lvl=56 req=54
+T 93747 @51.2,82.2 id=256222
+T 4521 @34.7,52.8 id=10306
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-57-hyjal-3",
+    name = "Mont Hyjal 57-58",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 57, maxLevel = 58,
+    next = "horde-undead-57-winterspring-3",
+    text = [[
+M hyjal
+H "Utilise ta pierre de foyer" @12.9,52.9 id=244512
+A 95026 @13.8,54.8 id=244511 lvl=58 req=54
+C 95026 @24.7,53.4 mobs=249228,249247
+A 91698 @31.5,58.6 id=244425 lvl=58 req=54
+A 96991 @32.9,54.4 id=267109 lvl=59 req=56
+C 91698 @30.6,58.0 mobs=259874
+T 91698 @31.5,58.6 id=244425
+A 91696 @31.5,58.6 id=244425 lvl=58 req=54
 T 91696 @20.6,71.7 id=256978
-T 93825 @20.8,79.8 id=260661
-T 93826 @21.8,79.2 id=256650
 A 93827 @18.5,78.6 id=256660 lvl=58 req=54 danger=1
 A 93832 @21.8,79.0 id=256627 lvl=58 req=54
 A 95107 @21.8,79.0 id=256627 lvl=58 req=54
 A 95273 @20.2,78.0 id=256626 lvl=59 req=54
 T 95273 @20.2,78.0 id=256626
-C 95107 @27.6,60.5 mobs=259875
-C 93832 @24.5,53.8 mobs=249237
+C 95107 @27.6,60.4 mobs=259875
+C 93832 @22.9,46.0 mobs=249237
 T 95026 @13.8,54.8 id=244511
 T 93832 @21.8,79.0 id=256627
 T 95107 @21.8,79.2 id=256650
 A 95108 @21.8,79.2 id=256650 lvl=58 req=54
 T 95108 @21.8,79.0 id=256627
-T 96321 @48.3,85.7 id=257753
+A 96296 @48.5,56.3 lvl=58 req=55
+C 96296 @48.5,56.3
+C 93827 @52.1,58.6 mobs=249222,249221,260826,249220 danger=1
+T 96296 @54.5,63.9 id=260825
 A 92147 @54.5,63.9 id=260825 lvl=58 req=55 danger=1
 A 96252 @54.5,63.9 id=260825 lvl=58 req=55
-C 93827 @52.2,58.7 mobs=249220,249221,249222,260826 danger=1
-C 92147 @52.6,58.8 mobs=249220,249221,249222,249223,260826 danger=1
+C 92147 @52.6,58.7 mobs=249222,249221,249223,260826,249220 danger=1
 T 92147 @54.5,63.9 id=260825 danger=1
 A 92011 @60.1,61.2 id=249235 lvl=58 req=54
-A 96296 @48.5,56.3 lvl=58 req=55
-C 96252 @47.3,58.2
-C 96296 @48.5,56.3
-T 96252 @54.5,63.9 id=260825
-T 96296 @54.5,63.9 id=260825
+T 93269 @70.9,51.5 id=243815
 T 96991 @68.3,46.7 id=264795
 A 96959 @49.3,32.6 id=267121 lvl=59 req=56
 C 92011 @49.8,35.8
 T 96959 @49.3,32.6 id=267121
+C 96252 @47.3,58.1
+T 96252 @54.5,63.9 id=260825
 T 92011 @60.1,61.2 id=249235
 A 92328 @60.1,61.2 id=249235 lvl=56 req=54
 T 92328 @60.1,61.2 id=249235
 T 93827 @18.5,78.6 id=256660 danger=1
+A 93833 @21.8,79.2 id=256650 lvl=57 req=54
+A 96666 @21.8,79.2 id=256650 lvl=57 req=54
+T 96666 @21.8,79.2 id=256650
+C 93833 @34.5,67.9 mobs=249053
+T 93833 @21.8,79.2 id=256650
 ]],
 })
 
 ns.RegisterGuide({
-    id = "horde-undead-57-winterspring-2",
+    id = "horde-undead-57-winterspring-3",
     name = "Berceau-de-l'Hiver 57-58",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 57, maxLevel = 58,
-    next = "horde-undead-58-hyjal-3",
+    next = "horde-undead-58-hyjal-4",
     text = [[
 M winterspring
 G "Rejoins Berceau-de-l'Hiver" @60.9,37.6 r=40 upto=60
-T 93197 @61.4,38.8 id=11118
 A 977 @60.9,37.6 id=10305 lvl=58 req=52
-A 93406 @61.4,38.8 id=11118 lvl=56 req=56
 C 977 @70.5,40.0 mobs=7459,7460
-C 93406 @70.4,40.2 mobs=7458,7457,7459,7460,10197
 T 977 @60.9,37.6 id=10305
-T 93406 @61.4,38.8 id=11118
-A 93269 @61.4,38.8 id=11118 lvl=58 req=56
 A 97264 @58.3,12.8 id=11718 lvl=58 req=55
 A 97403 @58.3,12.9 id=11751 lvl=59 req=55
 C 97264 @59.3,14.9 mobs=7445
@@ -2300,7 +2392,7 @@ T 8464 @27.7,34.5 id=11556
 })
 
 ns.RegisterGuide({
-    id = "horde-undead-58-hyjal-3",
+    id = "horde-undead-58-hyjal-4",
     name = "Mont Hyjal 58-59",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 58, maxLevel = 59,
@@ -2309,22 +2401,19 @@ ns.RegisterGuide({
 M hyjal
 H "Utilise ta pierre de foyer" @12.9,52.9 id=244512
 A 92592 @13.8,54.8 id=244511 lvl=59 req=57 danger=1
-A 95769 @13.8,53.1 id=265788 lvl=57 req=54
-C 92592 @25.8,54.3 mobs=260148 danger=1
+A 95769 @13.8,53.1 id=265788 lvl=57 req=54 danger=1
+C 92592 @25.8,54.4 mobs=260148 danger=1
 T 92592 @13.8,54.8 id=244511 danger=1
 A 92960 @43.8,32.2 id=263406 lvl=59 req=54
-C 92960 @53.4,35.4 mobs=249230
-T 92960 @43.8,32.2 id=263406
+C 92960 @55.1,38.7 mobs=249230
 A 97009 @63.3,25.9 id=267097 lvl=59 req=56
-C 97009 @53.4,35.4 mobs=249230
+C 97009 @55.1,38.7 mobs=249230
 T 97009 @63.3,25.9 id=267097
 A 97010 @63.3,25.9 id=267097 lvl=59 req=56
 T 97010 @63.3,25.9 id=267097
 A 92017 @68.3,46.7 id=264795 lvl=59 req=56
-A 99670 @68.8,50.6 id=40833 lvl=60 req=54
-T 93269 @70.9,51.5 id=243815
 A 93521 @76.9,35.4 lvl=60 req=57
-C 92017 @74.3,29.3 mobs=249490,249491
+C 92017 @77.7,33.7 mobs=249490,249491
 T 92017 @68.3,46.7 id=264795
 T 93521 @68.8,50.6 id=40833
 A 96302 @68.3,46.7 id=264795 lvl=60 req=56
@@ -2332,9 +2421,9 @@ T 96302 @68.3,46.7 id=264795
 A 92329 @60.1,61.2 id=249235 lvl=60 req=54
 T 92329 @60.1,61.2 id=249235
 A 91883 @54.3,64.0 id=254131 lvl=59 req=55
-C 91883 @50.4,57.7 mobs=260826
+C 91883 @51.4,58.1 mobs=260826
 T 91883 @54.3,64.0 id=254131
-T 99670 @41.3,45.3 id=267158
+T 92960 @43.8,32.2 id=263406
 ]],
 })
 
@@ -2343,37 +2432,26 @@ ns.RegisterGuide({
     name = "Silithus 58-59",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 58, maxLevel = 59,
-    next = "horde-undead-59-hyjal-4",
+    next = "horde-undead-59-hyjal-5",
     text = [[
 M silithus
 G "Rejoins Silithus" @51.6,38.6 r=40 upto=61
 A 8277 @51.6,38.6 id=15189 lvl=55 req=54
-A 8280 @51.1,38.3 id=15191 lvl=55 req=54
 A 8284 @49.7,37.5 id=15183 lvl=58 req=54
 A 8283 @51.4,38.3 group=1 lvl=59 req=54
-A 9416 @49.0,36.7 id=17081 lvl=60 req=53
-C 8280 @53.4,17.3 mobs=11740
 C 8277 @60.7,21.9 mobs=11735,11738
 T 8277 @51.6,38.6 id=15189
-T 8280 @51.1,38.3 id=15191
 A 8278 @51.6,38.6 id=15189 lvl=57 req=54
-A 8281 @51.1,38.3 id=15191 lvl=57 req=54
-A 8318 @48.6,37.8 id=15306 lvl=60 req=57 danger=1
-C 8318 @39.4,44.5 mobs=11880,11881,11882,15213,15201 danger=1
-C 8281 @30.2,42.8 mobs=11741
-T 8281 @51.1,38.3 id=15191
-T 8318 @48.6,37.8 id=15306 danger=1
-T 9416 @50.8,69.5 id=17079
-A 9422 @50.8,69.5 id=17079 lvl=60 req=55
-C 9422 @50.9,69.3 mobs=18199
-T 9422 @50.8,69.5 id=17079
 C 8278 @33.6,75.5 mobs=11736,11737,11739
-C 95769 @18.3,85.8 mobs=14479
+C 95769 @18.3,85.8 mobs=14479 danger=1
 T 8278 @51.6,38.6 id=15189
 A 8282 @51.6,38.5 id=15190 lvl=58 req=54
 C 8284 @22.1,10.4 mobs=14455
 T 8284 @49.7,37.5 id=15183
 A 8285 @49.7,37.5 id=15183 lvl=59 req=54
+A 8318 @48.6,37.8 id=15306 lvl=60 req=57 danger=1
+C 8318 @39.4,44.5 mobs=11880,11881,11882,15213,15201 danger=1
+T 8318 @48.6,37.8 id=15306 danger=1
 T 8285 @67.2,69.8 id=15194
 A 8279 @67.2,69.8 id=15194 lvl=60 req=54
 C 8282 @44.6,91.4
@@ -2391,31 +2469,29 @@ T 8323 @67.2,69.8 id=15194 danger=1
 })
 
 ns.RegisterGuide({
-    id = "horde-undead-59-hyjal-4",
+    id = "horde-undead-59-hyjal-5",
     name = "Mont Hyjal 59-60",
     faction = "Horde", race = { Scourge = true }, path = "horde-undead",
     minLevel = 59, maxLevel = 60,
+    next = "horde-undead-59-epl-3",
     text = [[
 M hyjal
 H "Utilise ta pierre de foyer" @12.9,52.9 id=244512
-T 95769 @13.8,53.1 id=265788
+T 95769 @13.8,53.1 id=265788 danger=1
 A 91794 @13.8,53.1 id=265788 lvl=59 req=54 danger=1
-C 91794 @52.4,34.2 mobs=249229,249236,267439,255183,252457 danger=1
+C 91794 @52.3,35.2 mobs=249229,249236,267439,255183,252457 danger=1
 A 92016 @68.3,46.7 id=264795 lvl=60 req=56
 A 92533 @68.9,48.4 id=243855 lvl=60 req=56
 A 93407 @68.8,50.6 id=40833 lvl=60 req=57
 A 93584 @69.0,50.0 id=254915 lvl=60 req=56
-A 96301 @68.3,46.7 id=264795 lvl=60 req=54
-C 92016 @74.2,36.6
-C 93407 @74.6,40.3
-C 96301 @72.8,38.4
-C 92533 @72.6,29.4 mobs=249551,264570,275174,275173
-C 93584 @73.2,30.3 mobs=249551,264570
+C 92016 @74.3,36.4
+C 93407 @74.6,40.1
+C 92533 @71.9,29.3 mobs=249551,264570,275174,275173
+C 93584 @72.9,29.5 mobs=249551,264570
 T 92016 @68.3,46.7 id=264795
 T 92533 @68.9,48.4 id=243855
 T 93407 @68.8,50.6 id=40833
 T 93584 @69.0,50.0 id=254915
-T 96301 @68.3,46.7 id=264795
 A 93127 @68.8,50.6 id=40833 lvl=60 req=54
 A 93444 @68.7,46.8 id=41861 lvl=60 req=56
 A 93547 @68.8,50.6 id=40833 lvl=60 req=57
@@ -2424,6 +2500,45 @@ T 93127 @68.8,50.6 id=40833
 T 93444 @68.7,46.8 id=41861
 T 93547 @68.8,50.6 id=40833
 T 96303 @69.0,50.0 id=254915
+A 96301 @68.3,46.7 id=264795 lvl=60 req=54
+C 96301 @72.8,38.4
+T 96301 @68.3,46.7 id=264795
 T 91794 @13.8,53.1 id=265788 danger=1
+]],
+})
+
+ns.RegisterGuide({
+    id = "horde-undead-59-epl-3",
+    name = "Maleterres de l'Est 59-60",
+    faction = "Horde", race = { Scourge = true }, path = "horde-undead",
+    minLevel = 59, maxLevel = 60,
+    text = [[
+M epl
+G "Rejoins Maleterres de l'Est" @71.4,49.4 r=40 upto=62
+B "Lie ta pierre de foyer à l'auberge" @71.8,48.5 id=16256
+A 9124 @71.7,48.9 id=16132 lvl=60 req=55
+A 9126 @71.6,48.9 id=16131 lvl=60 req=55
+A 9128 @71.7,48.7 id=16116 lvl=60 req=55
+A 9665 @70.4,47.9 id=17072 lvl=60 req=55
+A 5281 @69.9,53.7 id=11038 lvl=60 req=55
+C 9126 @58.7,31.1 mobs=1789,1783,1787,1784,8523
+T 9126 @71.6,48.9 id=16131
+C 9128 @53.6,68.5 mobs=11744,11746,6521,9878,9879
+C 9665 @34.1,64.1 mobs=17689,17690,17696,17698
+A 6042 @22.2,63.5 id=11878 lvl=58 req=54
+A 6133 @22.2,63.5 id=11878 lvl=60 req=54
+A 6024 @22.9,73.0 lvl=60 req=54
+C 6042 @42.1,53.4 mobs=8601,8602
+T 6042 @22.2,63.5 id=11878
+T 5281 @11.4,26.6 id=11140
+C 9124 @8.4,27.6 mobs=8558,8555,8557,8556,16184
+C 6133 @45.6,12.8 mobs=8564,8563,8565
+C 6024 @62.0,11.1 mobs=12248
+H "Utilise ta pierre de foyer" @71.8,48.5 id=16256
+T 9124 @71.7,48.9 id=16132
+T 9128 @71.7,48.7 id=16116
+T 9665 @70.4,47.9 id=17072
+T 6133 @22.2,63.5 id=11878
+T 6024 @23.6,73.8
 ]],
 })

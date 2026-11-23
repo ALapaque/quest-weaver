@@ -1,5 +1,9 @@
 # Questweaver
 
+## v1.12.1
+
+- **Données de quêtes mises à jour** (QuestieDB, EG Link et Polestar du 23/11/2026). 40 quête(s) ajoutée(s) aux routes, 43 retirée(s). 628 quêtes en moyenne par parcours, environ 73 h jusqu'au 60.
+
 ## v1.12.0
 
 - **Trois nouveaux thèmes** (Options > Apparence) :
